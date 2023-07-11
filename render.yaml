@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: strapi
+    name: strapi-sicovecas
     env: node
     plan: starter
     buildCommand: yarn install && yarn build
